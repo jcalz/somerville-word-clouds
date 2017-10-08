@@ -1,16 +1,17 @@
 <html>
 <head>
   <title>Somerville Word Clouds</title>
+  <meta property="og:image" content="preview.png">
   <style>
       html {
 	    text-align: center;
 	    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
-		background-color: #cccccc;
+		background-color: #ddddee;
 		width: 80%;
-	  } 
+	  }
       .container {
 	    position: relative;
-		font-size: 2vw;
+		font-size: 1.7vw;
 		text-shadow: 0 0 0.8em white;
 		
 	  }
@@ -29,6 +30,7 @@
       .ward {
 	    position: absolute;
 		transform: translate(-50%, -50%);
+	    font-weight: 900;
 	  }
       .ward1 {
 	    left: 74%;
@@ -58,19 +60,24 @@
 	    left: 16%;
 		top: 43%;
 	  }
+	  .wardnumber {
+	    display: block;
+		font-size: 50%;
+		font-weight: 400;
+	  }
   </style>
 </head>
 <body>
 <h2>Word Cloud Map of Somerville</h2>
  <div class="container">
   <img src="somervillewards.png">
-  <div class="ward ward1"><a href="ward1cloud.png">Ward 1</a></div>
-  <div class="ward ward2"><a href="ward2cloud.png">Ward 2</a></div>
-  <div class="ward ward3"><a href="ward3cloud.png">Ward 3</a></div>
-  <div class="ward ward4"><a href="ward4cloud.png">Ward 4</a></div>
-  <div class="ward ward5"><a href="ward5cloud.png">Ward 5</a></div>
-  <div class="ward ward6"><a href="ward6cloud.png">Ward 6</a></div>
-  <div class="ward ward7"><a href="ward7cloud.png">Ward 7</a></div>
+  <div class="ward ward1"><a href="ward1cloud.png">Rats<span class="wardnumber">(Ward 1)</span></a></div>
+  <div class="ward ward2"><a href="ward2cloud.png">Traffic<span class="wardnumber">(Ward 2)</span></a></div>
+  <div class="ward ward3"><a href="ward3cloud.png">Affordability<span class="wardnumber">(Ward 3)</span></a></div>
+  <div class="ward ward4"><a href="ward4cloud.png">Affordability<span class="wardnumber">(Ward 4)</span></a></div>
+  <div class="ward ward5"><a href="ward5cloud.png">Affordability<span class="wardnumber">(Ward 5)</span></a></div>
+  <div class="ward ward6"><a href="ward6cloud.png">Affordability<span class="wardnumber">(Ward 6)</span></a></div>
+  <div class="ward ward7"><a href="ward7cloud.png">Affordability<span class="wardnumber">(Ward 7)</span></a></div>
  </div> 
 </body>
 </html>
